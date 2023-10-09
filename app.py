@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.preprocessing import LabelEncoder
-df=pd.read_csv("C://Users//bodap//Downloads//weather1.csv")
+df=pd.read_csv("weather.csv")
 description_mapping = {
     'Partly cloudy throughout the day.': 0,
     'Partly cloudy throughout the day with rain.': 1,
